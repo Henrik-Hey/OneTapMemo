@@ -1,0 +1,29 @@
+{
+  "name": "OneTapMemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "firebase": "^4.10.1",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-maps": "^0.15.3",
+    "react-native-material-bottom-navigation": "^0.9.0",
+    "react-native-prompt": "^1.0.0",
+    "react-native-prompt-android": "^0.3.3",
+    "react-native-vector-icons": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
